@@ -55,7 +55,7 @@ export const projects = {
       image: "/projects/portfolio.svg",
       // Buttons: each entry becomes a button. Set `primary: true` for the filled blue style.
       buttons: [
-        { label: "Visit Website", url: "https://your-site.netlify.app", icon: "FaExternalLinkAlt", primary: true },
+        { label: "Visit Website", url: "https://ujjwalsinghportfolio.netlify.app/", icon: "FaExternalLinkAlt", primary: true },
       ],
     },
     {
