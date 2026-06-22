@@ -67,6 +67,15 @@ export const projects = {
         { label: "View Code", url: "https://github.com/ujjwalsingh888/smart-car-adas", icon: "FaGithub", primary: true },
       ],
     },
+    {
+  title: "Human Emotion Detection (Real-Time)",
+  description: "A real-time facial emotion recognition system built with deep learning. A 3-block CNN was trained from scratch in Keras on the FER-2013 dataset to classify seven emotions — angry, disgust, fear, happy, neutral, sad, and surprise. Achieved 57.67% test accuracy across 7,186 test images. The live inference pipeline uses OpenCV to capture webcam frames, a Haar-cascade detector to locate faces, and the trained model to predict emotions which are drawn back onto the video feed with bounding boxes. Trained for 50 epochs with dropout and image augmentation (rotation, zoom, horizontal flip) to fight overfitting on the noisy FER-2013 labels.",
+  tech: ["Python", "TensorFlow", "Keras", "OpenCV", "CNN", "NumPy", "FER-2013"],
+  image: "/projects/emotion.svg",
+  buttons: [
+    { label: "View Code", url: "https://github.com/ujjwalsingh888/Human-Emotion-Detection-", icon: "FaGithub", primary: true },
+      ],
+    },
   ],
 }
 export const contact = {
