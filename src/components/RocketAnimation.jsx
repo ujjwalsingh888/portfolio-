@@ -10,6 +10,14 @@ const techLabels = [
   { label: 'SQL', top: '88%', left: '15%', delay: 0.8, color: 'text-purple-300' },
   { label: 'C++', top: '60%', left: '0%', delay: 1.2, color: 'text-pink-300' },
   { label: 'Node.js', top: '30%', left: '5%', delay: 1.8, color: 'text-emerald-300' },
+  { label: 'Jetson Orin', top: '0%', left: '40%', delay: 2.3, color: 'text-lime-300' },
+  { label: 'Tailwind', top: '22%', left: '50%', delay: 0.3, color: 'text-sky-300' },
+  { label: 'TensorFlow', top: '95%', left: '35%', delay: 1.6, color: 'text-orange-400' },
+  { label: 'Keras', top: '50%', left: '95%', delay: 2.6, color: 'text-red-300' },
+  { label: 'CNN', top: '8%', left: '88%', delay: 0.6, color: 'text-violet-300' },
+  { label: 'Computer Vision', top: '75%', left: '0%', delay: 2.9, color: 'text-teal-300' },
+  { label: 'Deep Learning', top: '45%', left: '8%', delay: 1.4, color: 'text-fuchsia-300' },
+  { label: 'Neural Nets', top: '12%', left: '20%', delay: 2.1, color: 'text-indigo-300' },
 ]
 
 export default function RocketAnimation() {
